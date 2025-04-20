@@ -1,0 +1,32 @@
+# Python virtual environment (非常重要，必须忽略)
+venv/
+
+# 旧版本或备份文件夹 (如果 V1 不是当前项目必须的，建议忽略)
+V1/
+
+# 依赖文件夹 (即使现在没有，加上也没坏处)
+node_modules/
+
+# 构建输出文件夹 (如果将来有构建步骤)
+build/
+dist/
+
+# 打包的扩展文件
+*.zip
+*.crx
+
+# 日志文件
+*.log
+logs/
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# IDE/编辑器特定文件 (根据你的编辑器选择添加)
+.vscode/
+# .idea/
+
+# 其他你不想上传的文件或文件夹...
+documentation
+.env
